@@ -1,0 +1,1 @@
+emcc main.cpp -o build/index.js --bind -s MODULARIZE=1 -s EXPORT_NAME=Module
