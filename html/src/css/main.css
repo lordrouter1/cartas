@@ -10,7 +10,6 @@ body{
 .cards{
     margin: .5rem !important;
     border-width: 3px;
-    min-width: 150 !important; 
     max-width: 230px !important;
     transition: margin 0.15s ease-in-out;
 }
@@ -93,3 +92,12 @@ body{
     height: 100%;
     position: relative;
 }
+
+/* Para telas menores que 768px (exemplo: smartphones) */
+@media (max-width: 768px) {
+    body {
+        font-size: 10px; /* Reduzindo o tamanho da fonte */
+        width: 100%;
+    }
+}
+
